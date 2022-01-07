@@ -13,6 +13,12 @@
 
    <!-- custom style sheet -->
    <link rel="stylesheet" href="/css/site.css"/>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<!--custom fonts-->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fira+Sans:ital,wght@0,100;0,200;1,100;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -48,14 +54,57 @@
     </div>
 </nav>
 <header class="mainHeader">
-<div class="container-fluid">
-
+<div class="container d-flex justify-content-end align-items-center h-100">
+    <div>   
+    <div class="mainTitle">Dane<span><img src="img/DW_signature_black.png" class="mainLogo"></span> </div>
+        <div class="mainTitle">Whitman</div>
+    <div class="subTitle">SOFTWARE DEVELOPER</div>
+    <button class="btn btn-primary mt-2">CONTACT ME</button>
+</div> 
 </div>
 </header>
 <!--ALL SECTIONS BELOW-->
-    <main>
+    <main class="container">
        <section id="about">
-
+           <h1>About Me</h1>
+           <div class="row">
+            <div class="col-12 col-md-4">
+                <picture>
+                    <source srcset="/img/dane_profile.jpg" media="(min-width: 991.98px)">
+                    <source srcset="/img/dane_profile_768.jpg" media="(min-width: 575.98px)">
+                    <source srcset="/img/dane_profile_992.jpg" media="(min-width: 767.98px)">
+                <img src="/img/dane_profile_576.jpg" class="rounded-3 border border-2 border-dark img-fluid"/>
+            </picture>
+               <div class="col-12 col-md-8">
+                   <h2 class="mt-2">I'm Dane Whitman, a fullstack developer</h2>
+            <p> I am a software developer based in the United States and I have been building applications
+                websites for years, which bring companies ideas to life.  I mainly use C# and .NET to build web applications. I help convert a vision and an idea
+                into meaningful and useful software products. Having the ability transform requirements into
+                useful software helps me prioritize tasks, iterate fast and deliver faster. Take a look at
+                my portfolio work and lets see if we can work together on your next project.
+            </p>
+            <address>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                     <div>NAME:</div>
+                     <div>Dan Whitman:</div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <span>EMAIL:</span>
+                        <span><a href="mailto:dane@example.com">Dane@example.com</a></span>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div>Location:</div>
+                        <div>Somewhere, USA</div>
+                    </div>
+                    <div class="col-12 mt-3">
+                        <a href="#" class="btn btn-xl btn-primary">Download Resume</a>
+                    </div>
+                </div>
+            </address>
+        </div>
+        </div>
+        </div>
        </section>
        <section id="skills">
 
