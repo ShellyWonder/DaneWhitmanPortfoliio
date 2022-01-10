@@ -51,6 +51,11 @@ height:274px;
 background-repeat: no-repeat;
 background-position: left 0px top 74px;
   }
+  .section-page{
+      height: 100%;
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+  }
   /*Breakpts:2560x500
 1200x400
 992x300
@@ -65,15 +70,15 @@ background-position: left 0px top 74px;
       }
       .mainTitle{
         font-family: var(--title-font);
-        font-size: .1rem;
-        line-height: .5rem;
+        font-size: 2rem;
+        line-height: 1.75rem;
     }
     .subTitle{
         font-family: var(--title-font);
-        font-size: .5rem;
+        font-size: .7rem;
         line-height: .5rem;
         font-weight: 100;
-        letter-spacing: .01rem;
+        letter-spacing: .05rem;
     
     }
   }
@@ -97,16 +102,30 @@ background-position: left 0px top 74px;
         font-weight: 200;
 }
 @media (min-width: 991.98px) {
+    .mainTitle{
+        font-family: var(--title-font);
+        font-size: 3rem;
+        line-height: 2.5rem;
+    }
+    .mainLogo{
+        height: .7em;
+    }
     .mainHeader{
     background-image: url(/img/blue_banner_1200.jpg);
     height: 474px;
     }
+    .subTitle{
+        font-family: var(--title-font);
+        font-size: 1.2rem;
+        line-height: 1rem;
+        font-weight: 200;
+}
 }
     @media (min-width: 1199.98px) {
         .mainTitle{
             font-family: var(--title-font);
             font-size: 6rem;
-            line-height: 2rem;
+            line-height: 4.5rem;
         }
         .mainLogo{
             height: .6em;
@@ -115,11 +134,31 @@ background-position: left 0px top 74px;
         background-image: url(/img/blue_banner_2560.jpg);
         height: 574px;
         }
+        .subTitle{
+            font-family: var(--title-font);
+            font-size: 2.5rem;
+            line-height: 1.75rem;
+            font-weight: 100;
+    }
     }
     @media (min-width: 1399.98px) {
         .mainHeader{
         background-image: url(/img/blue_banner_2560.jpg);
         height: 574px;
         }
+        .mainTitle{
+            font-family: var(--title-font);
+            font-size: 6rem;
+            line-height: 4.5rem;
+        }
+        .mainLogo{
+            height: .6em;
+        }
+        .subTitle{
+            font-family: var(--title-font);
+            font-size: 2.5rem;
+            line-height: 1.75rem;
+            font-weight: 100;
+    }
     }
 }
