@@ -55,8 +55,12 @@ background-position: left 0px top 74px;
       height: 100%;
       padding-top: 6rem;
       padding-bottom: 6rem;
+  }  /*--project card styles--*/
+  .projectCard{
+      width: 18rem;
   }
-  /*Breakpts:2560x500
+  /*Breakpts:
+2560x500
 1200x400
 992x300
 576x200
