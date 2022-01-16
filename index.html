@@ -25,7 +25,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark" id="mainNav">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#">
                 <img src="/img/Dane_Signature-01.png" height="50" alt="Dane Whitman Logo">
@@ -46,8 +46,8 @@
                         <a class="nav-link" href="#skills">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#codeChallenge"><span
-                                class="d-none d-lg-inline">Coding</span>Challenges</a>
+                        <a class="nav-link" href="#codeChallenge"><span class="d-none d-lg-inline">Coding</span>
+                            Challenges</a>
                     </li>
                     <li class=" nav-item">
                         <a class="nav-link" href="#projects">Projects</a>
@@ -64,453 +64,502 @@
     </nav>
     <header class="mainHeader">
         <div class="container d-flex justify-content-end align-items-center h-100">
+            <!--placeholder content-->
             <div>
                 <div class="mainTitle">Dane<span><img src="img/DW_signature_black.png" class="mainLogo"></span></div>
                 <div class="mainTitle">Whitman</div>
                 <div class="subTitle">SOFTWARE DEVELOPER</div>
-                <button class="btn btn-primary mt-2">HIRE ME</button>
+                <button class="mainButton btn rounded-pill mt-2">HIRE ME</button>
             </div>
         </div>
     </header>
     <!--ALL SECTIONS BELOW-->
-    <main class="container">
+    <main class="container-fluid g-0">
         <section class="section-page" id="about">
-            <h1>About Me</h1>
-            <div class="row">
-                <div class="col-12 col-md-4">
-                    <picture>
-                        <source srcset="/img/dane_profile.jpg" media="(min-width: 991.98px)">
-                        <source srcset="/img/dane_profile_768.jpg" media="(min-width: 575.98px)">
-                        <source srcset="/img/dane_profile_992.jpg" media="(min-width: 767.98px)">
-                        <img src="/img/dane_profile_576.jpg" class="rounded-3 border border-2 border-dark img-fluid" />
-                    </picture>
-                </div>
-                <div class="col-12 col-md-8 h-100">
-                    <h2 class="mt-2">I'm Dane Whitman, a fullstack developer</h2>
-                    <p> I am a software developer based in the United States. Building applications and
-                        websites for years, I bring companies' ideas to life. I mainly use C# and .NET to build web
-                        applications. I help convert a vision and an idea
-                        into meaningful and useful software products. Having the ability to transform requirements into
-                        useful software helps me prioritize tasks, iterate fast and deliver faster. Take a look at
-                        my portfolio. Let's see if we can work together on your next project.
-                    </p>
-                    <address>
-                        <div class="row">
-                            <div class="col-12 col-md-6">
-                                <div><strong>NAME:</strong></div>
-                                <div>Dan Whitman</div>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div><strong>EMAIL:</strong></div>
-                                <span><a href="mailto:dane@example.com">Dane@example.com</a></span>
-                            </div>
-                            <div class="col-12 col-lg-6">
-                                <div class="mt-2"><strong>LOCATION:</strong></div>
-                                <div>Somewhere, USA</div>
-                            </div>
-                            <!--button-->
-                            <div class="col-12 col-lg-6 mt-3">
-                                <a href="#" class="btn btn-xl btn-primary">Download Resume</a>
-                            </div>
+            <div class="aboutBG pt-3 ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="container">
+                    <h1>About Me</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-4">
+                            <picture>
+                                <source srcset="/img/dane_profile.jpg" media="(min-width: 991.98px)">
+                                <source srcset="/img/dane_profile_768.jpg" media="(min-width: 575.98px)">
+                                <source srcset="/img/dane_profile_992.jpg" media="(min-width: 767.98px)">
+                                <img src="/img/dane_profile_576.jpg"
+                                    class="rounded-3 border border-2 border-dark img-fluid" />
+                            </picture>
                         </div>
-                    </address>
+                        <div class="col-12 col-md-8 h-100">
+                            <h2 class="mt-2">I'm Dane Whitman, a fullstack developer</h2>
+                            <p> I am a software developer based in the United States. Building applications and
+                                websites for years, I bring companies' ideas to life. I mainly use C# and .NET to build
+                                web
+                                applications. I help convert a vision and an idea
+                                into meaningful and useful software products. Having the ability to transform
+                                requirements
+                                into
+                                useful software helps me prioritize tasks, iterate fast and deliver faster. Take a look
+                                at
+                                my portfolio. Let's see if we can work together on your next project.
+                            </p>
+                            <address>
+                                <div class="row">
+                                    <div class="col-12 col-md-6">
+                                        <div><strong>NAME:</strong></div>
+                                        <div>Dan Whitman</div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div><strong>EMAIL:</strong></div>
+                                        <span><a href="mailto:dane@example.com">Dane@example.com</a></span>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="mt-2"><strong>LOCATION:</strong></div>
+                                        <div>Somewhere, USA</div>
+                                    </div>
+                                    <!--button-->
+                                    <div class="col-12 col-lg-6 mt-3">
+                                        <a href="#" class="mainButton btn rounded-pill btn-xl">Download Resume</a>
+                                    </div>
+                                </div>
+                            </address>
+                        </div>
+                    </div>
                 </div>
-            </div>
             </div>
         </section>
         <section class="section-page" id="skills">
-            <div class="row">
-                <div class="col-12">
-                    <h1>MY SKILLS</h1>
-                    <p>I am a creative problem solver. I build fullstack web and mobile applications. I use C#, SQL,
-                        ASP.net, Javacript, Xamarin, Bootstrap, HTML and CSS. I have highlighthed my key technical
-                        skills that I will bring to your project.
-                    </p>
-                </div>
-            </div>
-
-            <!--SKILLS ICONS-->
-
-            <div class="row">
-                <div class="col-12 col-md-4 pb-2">
-                    <div class="card p-2 mb-2 h-100">
-                        <img src="/img/logos/CsharpLogo.png" alt="C# Logo">
-                        <h3>C# Development</h3>
-
-                        <p class="card-text"> I use C# on a daily basis to build websites and mobile
-                            applications. You can see examples of my work implementing
-                            C# in my <strong><em>projects</em></strong> section.</p>
-
-
+            <div class="gradBG ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="container pt-3 pb-3">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>MY SKILLS</h1>
+                            <p>I am a creative problem solver. I build fullstack web and mobile applications. I use C#,
+                                SQL,
+                                ASP.net, Javacript, Xamarin, Bootstrap, HTML and CSS. I have highlighthed my key
+                                technical
+                                skills that I will bring to your project.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-4 pb-2">
-                    <div class="card p-2 mb-2 h-100">
-                        <img src="/img/logos/ASPNETMVC.png" alt=".NET Logo">
-                        <h3>FULL STACK WEB DEVELOPMENT</h3>
 
-                        <p class="card-text"> I use proven design patterns and frameworks to build
-                            websites. </p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-2">
-                    <div class="card p-2 mb-2 h-100">
-                        <img src="/img/logos/FrontEndDev.png" alt="HTML, CSS, and Javascript Logos">
-                        <h3>FRONT END DEVELOPMENT</h3>
-                        <p class="card-text"> I use HTML, CSS and Javascript to build attractive
-                            responsive front ends for websites. To see my front end work, check out my
-                            <strong><em>projects</em></strong> section.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-2">
-                    <div class="card p-2 mb-2 h-100">
-                        <img src="/img/logos/Xamarin.png" alt="Xamarin Logo">
-                        <h3>MOBILE DEVELOPMENT</h3>
-                        <p class="card-text">Xamarin is a cross platform native mobile development
-                            platform. This allows me to create mobile applicaitons that run on IOS and Andriod.</p>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-2">
-                    <div class="card p-2 mb-2 h-100">
-                        <img src="/img/logos/SQL.png" alt="SQL Logo">
-                        <h3>DATABASE DEVELOPMENT</h3>
-                        <p class="card-text"> Database Development is critical to most projects. I am well
-                            versed in SQL Development from queries to design.
-                        </p>
+                    <!--SKILLS ICONS-->
 
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 pb-2">
-                    <div class="card p-2 mb-2 h-100">
-                        <img src="/img/logos/Bootstrap.png" alt="Bootstrap Logo">
-                        <h3>BOOTSTRAP 5</h3>
-                        <p class="card-text"> The look and feel are very important elements to any
-                            project. I utilize bootstrap to bring an attractive design to your web projects.
-                        </p>
+                    <div class="row">
+                        <div class="col-12 col-md-4 pb-5">
+                            <div class="card p-2 mb-2 h-100">
+                                <img src="/img/logos/CsharpLogo.png" alt="C# Logo">
+                                <h3>C# Development</h3>
 
+                                <p class="card-text"> I use C# on a daily basis to build websites and mobile
+                                    applications. You can see examples of my work implementing
+                                    C# in my <strong><em>projects</em></strong> section.</p>
+
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pb-5">
+                            <div class="card p-2 mb-2 h-100">
+                                <img src="/img/logos/ASPNETMVC.png" alt=".NET Logo">
+                                <h3>FULL STACK WEB DEVELOPMENT</h3>
+
+                                <p class="card-text"> I use proven design patterns and frameworks to build
+                                    websites. </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pb-5">
+                            <div class="card p-2 mb-2 h-100">
+                                <img src="/img/logos/FrontEndDev.png" alt="HTML, CSS, and Javascript Logos">
+                                <h3>FRONT END DEVELOPMENT</h3>
+                                <p class="card-text"> I use HTML, CSS and Javascript to build attractive
+                                    responsive front ends for websites. To see my front end work, check out my
+                                    <strong><em>projects</em></strong> section.</p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pb-2">
+                            <div class="card p-2 mb-2 h-100">
+                                <img src="/img/logos/Xamarin.png" alt="Xamarin Logo">
+                                <h3>MOBILE DEVELOPMENT</h3>
+                                <p class="card-text">Xamarin is a cross platform native mobile development
+                                    platform. This allows me to create mobile applicaitons that run on IOS and
+                                    Andriod.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pb-2">
+                            <div class="card p-2 mb-2 h-100">
+                                <img src="/img/logos/SQL.png" alt="SQL Logo">
+                                <h3>DATABASE DEVELOPMENT</h3>
+                                <p class="card-text"> Database Development is critical to most projects. I am well
+                                    versed in SQL Development from queries to design.
+                                </p>
+
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 pb-2">
+                            <div class="card p-2 mb-2 h-100">
+                                <img src="/img/logos/Bootstrap.png" alt="Bootstrap Logo">
+                                <h3>BOOTSTRAP 5</h3>
+                                <p class="card-text"> The look and feel are very important elements to any
+                                    project. I utilize bootstrap to bring an attractive design to your web projects.
+                                </p>
+
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             </div>
         </section>
-        <div class="container-fluid cTA">
-            <p>Reach out and let's chat . . .</p>
-            <h1>How I can work with you to realize your organization's vision now.</h1>
-            <a href="#contact" class="btn btn-xl btn-primary">Contact Me Today!</a>
+        <!--CTA-->
+        <div class="cTA">
+            <div class="container d-flex pb-3 pt-3 ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="row">
+                    <p>Reach out and let's chat . . .</p>
+                    <h1 class="text-center">I can put my skills to work to realize your organization's vision now.</h1>
+                    <div class="d-flex justify-content-end">
+                        <a href="#contact" class="mainButton btn rounded-pill btn-lg ">Contact Me Today!</a>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--JS CODING CHALLENGES-->
         <section class="section-page" id="codeChallenge">
-            <div class="row">
-                <div class="col">
-                    <h1>CODING CHALLENGES</h1>
-                    <p>Showcasing .JS coding challenges demonstrates what I
-                        can bring to your project. I built these projects from the
-                        ground up to demonstrate skill fornt-end, back-end, security
-                        and database development. All these projects are fullstack
-                        web projects that are built so that you can demo them
-                        easily. Contact me to get a complete code walkthrough.
-                    </p>
-                </div>
-            </div>
-            <!--JS CODE CHALLENGE CARDS-->
-            <div class="row row-cols-1 row-cols-md-3 gy-3">
-                <div class="col d-flex justify-content-center justify-content-md-start">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
+            <div class="codeChallenges pt-3 pb-3 ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1>CODING CHALLENGES</h1>
+                            <p>Showcasing .JS coding challenges demonstrates what I
+                                can bring to your project. I built these projects from the
+                                ground up to demonstrate skill fornt-end, back-end, security
+                                and database development. All these projects are fullstack
+                                web projects that are built so that you can demo them
+                                easily. Contact me to get a complete code walkthrough.
                             </p>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
-                        </div>
                     </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
-                            </p>
+                    <!--JS CODE CHALLENGE CARDS-->
+                    <div class="row row-cols-1 row-cols-md-3 gy-3">
+                        <div class="col d-flex justify-content-center justify-content-md-start">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
+                        <div class="col d-flex justify-content-center">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center justify-content-md-end">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
-                            </p>
+                        <div class="col d-flex justify-content-center justify-content-md-end">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
+                        <div class="col d-flex justify-content-center justify-content-md-start">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center justify-content-md-start">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <div class="card projectCard">
-                        <img src="/img/logos/ExpenseTracker2.jpg" class="card-img-top img-fluid" alt="Money Grow logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Money Grow</h5>
-                            <p class="card-text">A Full Stack personal budgeting app built with asp.net MVC, C#
-                                and SQL.</p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#ExpenseTrackerModal">Learn More</button>
-                        </div>
-                    </div>
+                        <div class="col d-flex justify-content-center">
+                            <div class="card projectCard">
+                                <img src="/img/logos/ExpenseTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Money Grow logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Money Grow</h5>
+                                    <p class="card-text">A Full Stack personal budgeting app built with asp.net MVC, C#
+                                        and SQL.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#ExpenseTrackerModal">Learn More</button>
+                                </div>
+                            </div>
 
-                </div>
-                <!--BLOG PROJECT CARD-->
-                <div class="col d-flex justify-content-center justify-content-md-end">
-                    <div class="card projectCard">
-                        <img src="/img/logos/Blog2.jpg" class="card-img-top img-fluid" alt="Blog logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog</h5>
-                            <p class="card-text">A Full Stack complete Blogging platform built with asp.net MVC, C#
-                                and SQL.</p>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#blogModal">Learn More</button>
-                        </div>
+                        <!--BLOG PROJECT CARD-->
+                        <div class="col d-flex justify-content-center justify-content-md-end">
+                            <div class="card projectCard">
+                                <img src="/img/logos/Blog2.jpg" class="card-img-top img-fluid" alt="Blog logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blog</h5>
+                                    <p class="card-text">A Full Stack complete Blogging platform built with asp.net MVC,
+                                        C#
+                                        and SQL.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#blogModal">Learn More</button>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-page" id="projects">
-            <div class="row">
-                <div class="col">
-                    <h1>FULL STACK PROJECTS</h1>
-                    <p>Showcasing complete functional projects demonstrates what I
-                        can bring to your project. I built these projects from the
-                        ground up to demonstrate skill fornt-end, back-end, security
-                        and database development. All these projects are fullstack
-                        web projects that are built so that you can demo them
-                        easily. Contact me to get a complete code walkthrough.
-                    </p>
-                </div>
-            </div>
-            <!--PROJECT CARDS-->
-            <div class="row row-cols-1 row-cols-md-3 gy-3">
-                <!--BUG TRACKER-->
-                <div class="col d-flex justify-content-center justify-content-md-start">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
+            <div class="aboutBG pt-3 pb-3 ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <h1>FULL STACK PROJECTS</h1>
+                            <p>Showcasing complete functional projects demonstrates what I
+                                can bring to your project. I built these projects from the
+                                ground up to demonstrate skill fornt-end, back-end, security
+                                and database development. All these projects are fullstack
+                                web projects that are built so that you can demo them
+                                easily. Contact me to get a complete code walkthrough.
                             </p>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
-                        </div>
                     </div>
-                </div>
-                <div class="col d-flex justify-content-center">
-                    <!--ADDRESS BOOK-->
-                    <div class="card projectCard">
-                        <img src="/img/logos/ExpenseTracker2.jpg" class="card-img-top img-fluid" alt="Money Grow logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Money Grow</h5>
-                            <p class="card-text">A Full Stack personal budgeting app built with asp.net MVC, C#
-                                and SQL.</p>
+                    <!--PROJECT CARDS-->
+                    <div class="row row-cols-1 row-cols-md-3 gy-3">
+                        <!--BUG TRACKER-->
+                        <div class="col d-flex justify-content-center justify-content-md-start">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#ExpenseTrackerModal">Learn More</button>
-                        </div>
-                    </div>
+                        <div class="col d-flex justify-content-center">
+                            <!--ADDRESS BOOK-->
+                            <div class="card projectCard">
+                                <img src="/img/logos/ExpenseTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Money Grow logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Money Grow</h5>
+                                    <p class="card-text">A Full Stack personal budgeting app built with asp.net MVC, C#
+                                        and SQL.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#ExpenseTrackerModal">Learn More</button>
+                                </div>
+                            </div>
 
-                </div>
-                <!--BLOG PROJECT-->
-                <div class="col d-flex justify-content-center justify-content-md-end">
-                    <div class="card projectCard">
-                        <img src="/img/logos/Blog2.jpg" class="card-img-top img-fluid" alt="Blog logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Blog</h5>
-                            <p class="card-text">A Full Stack complete Blogging platform built with asp.net MVC, C#
-                                and SQL.</p>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#blogModal">Learn More</button>
-                        </div>
+                        <!--BLOG PROJECT-->
+                        <div class="col d-flex justify-content-center justify-content-md-end">
+                            <div class="card projectCard">
+                                <img src="/img/logos/Blog2.jpg" class="card-img-top img-fluid" alt="Blog logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Blog</h5>
+                                    <p class="card-text">A Full Stack complete Blogging platform built with asp.net MVC,
+                                        C#
+                                        and SQL.</p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#blogModal">Learn More</button>
+                                </div>
 
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            </div>
             </div>
         </section>
         <section class="section-page" id="blog">
-            <h1>TECH BLOG</h1>
-            <p>Articles covering web development technologies.</p>
-            <p>Each of the following articles are dynamically populated via an API call pulling the most recent posts
-                from my external blog site.</p>
-            <div class="row row-cols-1 row-cols-md-3 gy-3">
-                <!--BLOG POST 1-->
-                <div class="col d-flex justify-content-center justify-content-md-start">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
-                            </p>
+            <div class="codeChallenges pt-3 pb-3 ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="container">
+                    <h1>TECH BLOG</h1>
+                    <p>Articles covering web development technologies.</p>
+                    <p>Each of the following articles are dynamically populated via an API call pulling the most recent
+                        posts
+                        from my external blog site.</p>
+                    <div class="row row-cols-1 row-cols-md-3 gy-3">
+                        <!--BLOG POST 1-->
+                        <div class="col d-flex justify-content-center justify-content-md-start">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
+                        <!--BLOG POST 2-->
+                        <div class="col d-flex justify-content-center">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <!--BLOG POST 2-->
-                <div class="col d-flex justify-content-center">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
-                        </div>
-                    </div>
-                </div>
-                <!--BLOG POST 3-->
-                <div class="col d-flex justify-content-center justify-content-md-end">
-                    <div class="card projectCard">
-                        <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid" alt="Insecticide logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Insecticide</h5>
-                            <p class="card-text">
-                                A Full Stack feature rich bug tracker built with asp.net MVC, C#
-                                and SQL.
-                            </p>
-                        </div>
-                        <div class="card-footer text-center">
-                            <!--insert modal target-->
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#BugTrackerModal">Learn More</button>
+                        <!--BLOG POST 3-->
+                        <div class="col d-flex justify-content-center justify-content-md-end">
+                            <div class="card projectCard">
+                                <img src="/img/logos/BugTracker2.jpg" class="card-img-top img-fluid"
+                                    alt="Insecticide logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Insecticide</h5>
+                                    <p class="card-text">
+                                        A Full Stack feature rich bug tracker built with asp.net MVC, C#
+                                        and SQL.
+                                    </p>
+                                </div>
+                                <div class="card-footer text-center">
+                                    <!--insert modal target-->
+                                    <button type="button" class="mainButton btn rounded-pill" data-bs-toggle="modal"
+                                        data-bs-target="#BugTrackerModal">Learn More</button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <section class="section-page" id="contact">
-            <h1>CONTACT ME</h1>
-            <h3>Let's talk about what I can do for your organization. . .</h3>
+            <div class="gradBG pt-3 pb-3 ps-2 pe-2 pe-md-0 ps-md-0">
+                <div class="container">
+                    <h1>CONTACT ME</h1>
+                    <h3>Let's talk about what I can do for your organization.</h3>
 
-            <div class="p-3 border border-2 rounded shadow-lg bg-light" id="formContainingDiv">
-                <form name="contactForm" class="row g-3 p-2" netlify data-netlify-recaptcha="true">
-                    <div class="col-12">
-                        <div class="row">
-                            <!--Line 1-->
-                            <div class="col-12 col-md-6 form-group">
-                                <label for="inputFirstName" class="form-label">First Name</label>
-                                <input type="text" class="form-control" name="firstName" required />
-                            </div>
-                            <div class="col-12 col-md-6 form-group">
-                                <label for="inputlastName" class="form-label">Last Name</label>
-                                <input type="text" class="form-control" name="lastName" required />
-                            </div>
-                            <!--Line 2-->
-                            <div class="col-12 col-md-6 form-group">
-                                <label for="inputCompanyPostion" class="form-label">Your Position</label>
-                                <select class="form-select" name="companyPostion" required>
-                                    <option>Choose One . . .</option>
-                                    <option value="humanResources">Human Resources</option>
-                                    <option value="departmentHead">Department Head</option>
-                                    <option value="recruiter">Recruiter</option>
-                                    <option value="other">Other</option>
-                                </select>
+                    <div class=" p-3" id="formContainingDiv">
+                        <form name="contactForm" class="row g-3 p-2" netlify data-netlify-recaptcha="true">
+                            <div class="col-12">
+                                <div class="row">
+                                    <!--Line 1-->
+                                    <div class="col-12 col-md-6 form-group">
+                                        <label for="inputFirstName" class="form-label">First Name</label>
+                                        <input type="text" class="form-control" name="firstName" required />
+                                    </div>
+                                    <div class="col-12 col-md-6 form-group">
+                                        <label for="inputlastName" class="form-label">Last Name</label>
+                                        <input type="text" class="form-control" name="lastName" required />
+                                    </div>
+                                    <!--Line 2-->
+                                    <div class="col-12 col-md-6 form-group">
+                                        <label for="inputCompanyPostion" class="form-label">Your Position</label>
+                                        <select class="form-select" name="companyPostion" required>
+                                            <option>Choose One . . .</option>
+                                            <option value="humanResources">Human Resources</option>
+                                            <option value="departmentHead">Department Head</option>
+                                            <option value="recruiter">Recruiter</option>
+                                            <option value="other">Other</option>
+                                        </select>
 
-                            </div>
-                            <div class="col-12 col-md-6 form-group">
-                                <label for="inputCompanyName" class="form-label">Company Name</label>
-                                <input type="text" class="form-control" name="companyName" required />
+                                    </div>
+                                    <div class="col-12 col-md-6 form-group">
+                                        <label for="inputCompanyName" class="form-label">Company Name</label>
+                                        <input type="text" class="form-control" name="companyName" required />
 
-                            </div>
-                            <div class="col-12 col-md-6 form-group">
-                                <label for="inputEmail" class="form-label">Email</label>
-                                <input type="email" class="form-control" name="email" required
-                                    placeholder="example@email.com" />
-                            </div>
+                                    </div>
+                                    <div class="col-12 col-md-6 form-group">
+                                        <label for="inputEmail" class="form-label">Email</label>
+                                        <input type="email" class="form-control" name="email" required
+                                            placeholder="example@email.com" />
+                                    </div>
 
-                            <div class="col-12 col-md-6 form-group">
-                                <label for="inputphone" class="form-label">Phone</label>
-                                <input type="tel" class="form-control" name="phone" placeholder="optional" />
+                                    <div class="col-12 col-md-6 form-group">
+                                        <label for="inputphone" class="form-label">Phone</label>
+                                        <input type="tel" class="form-control" name="phone" placeholder="optional" />
+                                    </div>
+
+                                    <div class="col-12 form-group">
+                                        <label for="inputMessage" class="form-label">Message</label>
+                                        <textarea type="text" class="form-control" name="Message" rows="4"
+                                            placeholder="Write your message here"></textarea>
+                                    </div>
+
+                                    <div data-netlify-recaptcha="true"></div>
+                                    <div class="col-12 d-flex justify-content-center justify-content-md-end p-2">
+                                        <button type="submit"
+                                            class=" mainButton btn rounded-pill btn-lg">SUBMIT</button>
+                                    </div>
+                                </div>
                             </div>
-
-                            <div class="col-12 form-group">
-                                <label for="inputMessage" class="form-label">Message</label>
-                                <textarea type="text" class="form-control" name="Message" rows="4"
-                                    placeholder="Write your message here"></textarea>
-                            </div>
-
-                            <div data-netlify-recaptcha="true"></div>
-                            <div class="col-12 d-flex justify-content-center p-2">
-                                <button type="submit" class="btn btn-outline-primary btn-lg">SUBMIT</button>
-                            </div>
-                        </div>
-
-
+                        </form>
                     </div>
-
-                </form>
+                </div>
             </div>
         </section>
 
